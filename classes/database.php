@@ -6,10 +6,10 @@ class database{
     private $db_pass = '';
     private  $host = '';
     function __construct(){
-        $this->db_name = 'phpunit';
+        $this->db_name = 'phpunitdemo';
         $this->db_user = 'root';
         $this->host='localhost';
-        $this->db_pass ='nilesh11';
+        $this->db_pass ='webonise6186';
         $this->connect();
 
     }
