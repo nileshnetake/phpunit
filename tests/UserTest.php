@@ -13,14 +13,15 @@ class UserTest extends PHPUnit_Framework_TestCase{
         $this->db= new database();
 
     }
-/*
+
     public function testTalk() {
         // make an instance of the user
         // use assertEquals to ensure the greeting is what you
         $expected = "Hello world!";
         $actual = $this->user->talk();
         $this->assertEquals($expected, $actual);
-    }*/
+    }
+
 
    public  function testCreate(){
         $arr = array('first_name'=>'simo','last_name'=>'pradhan','user_name'=>'simo.pradhan','user_password'=>'123456','email'=>'simo@gmail.com');
@@ -32,25 +33,28 @@ class UserTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals($arr['email'], $user_data['email']);
         $this->assertEquals(md5($arr['user_password']),$user_data['password']);
    }
-    /*
+
+
     public function testDoLogin(){
-        $user = array('user_name'=>'nilesh.netake','password'=>'123456');
+        $user = array('user_name'=>'simo.pradhan','password'=>'123456');
+        //$user = array('user_name'=>'nilesh.netake','password'=>'123456');
         $expected = true;
         $actual = $this->user->doLogin($user['user_name'],$user['password']);
         $this->assertEquals($expected,$actual);
     }
 
     public  function testForgetPassword(){
-        $email = 'netake.nilesh@gmail.com';
+        $email = 'simo@gmail.com';
         $actual = $this->user->forgetPassword($email);
         $expected = true;
         $this->assertEquals($expected,$actual);
 
 
     }
+
     protected function tearDown() {
         unset($this->user);
         unset($this->db);
-    }*/
+    }
 }
 ?>

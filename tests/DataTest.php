@@ -2,8 +2,8 @@
 class DataTest extends PHPUnit_Framework_TestCase{
 
 
-    public function testAddSingle(){
-        $a = 4;
+   public function testAddSingle(){
+        $a = 3;
         $b = 2;
         $c = 5;
         $this->assertEquals($c,$a+$b);

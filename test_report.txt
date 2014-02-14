@@ -1,0 +1,10 @@
+PHPUnit 3.7.29 by Sebastian Bergmann.
+
+Configuration read from /home/webonise/Projects/php/app2013/phpunit/phpunit.xml
+
+....
+
+Time: 140 ms, Memory: 3.25Mb
+
+[30;42m[2KOK (4 tests, 8 assertions)
+[0m[2K
