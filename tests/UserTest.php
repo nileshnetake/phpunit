@@ -13,14 +13,14 @@ class UserTest extends PHPUnit_Framework_TestCase{
         $this->db= new database();
 
     }
-
+/*
     public function testTalk() {
         // make an instance of the user
         // use assertEquals to ensure the greeting is what you
         $expected = "Hello world!";
         $actual = $this->user->talk();
         $this->assertEquals($expected, $actual);
-    }
+    }*/
 
    public  function testCreate(){
         $arr = array('first_name'=>'simo','last_name'=>'pradhan','user_name'=>'simo.pradhan','user_password'=>'123456','email'=>'simo@gmail.com');
@@ -32,7 +32,7 @@ class UserTest extends PHPUnit_Framework_TestCase{
         $this->assertEquals($arr['email'], $user_data['email']);
         $this->assertEquals(md5($arr['user_password']),$user_data['password']);
    }
-
+    /*
     public function testDoLogin(){
         $user = array('user_name'=>'nilesh.netake','password'=>'123456');
         $expected = true;
@@ -51,6 +51,6 @@ class UserTest extends PHPUnit_Framework_TestCase{
     protected function tearDown() {
         unset($this->user);
         unset($this->db);
-    }
+    }*/
 }
 ?>
