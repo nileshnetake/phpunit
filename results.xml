@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="LogicalTest" file="/home/webonise/Projects/php/app2013/phpunit/tests/logicalTest.php" tests="1" assertions="1" failures="1" errors="0" time="0.003903">
+    <testcase name="testEqauls" class="LogicalTest" file="/home/webonise/Projects/php/app2013/phpunit/tests/logicalTest.php" line="10" assertions="1" time="0.003903">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">LogicalTest::testEqauls
+Failed asserting that two objects are equal.
+--- Expected
++++ Actual
+@@ @@
+ logical Object (
+-    'name' =&gt; 'sushant'
++    'name' =&gt; 'ganesh'
+ )
+
+/home/webonise/Projects/php/app2013/phpunit/tests/logicalTest.php:14
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
