@@ -53,6 +53,7 @@ INSERT INTO `tbl_user` (`id`, `first_name`, `last_name`, `user_name`, `email`, `
 (87, 'simo', 'pradhan', 'simo.pradhan', 'simo@gmail.com', 'e10adc3949ba59abbe56e057f20f883e'),
 (88, 'simo', 'pradhan', 'simo.pradhan', 'simo@gmail.com', 'e10adc3949ba59abbe56e057f20f883e'),
 (89, 'simo', 'pradhan', 'simo.pradhan', 'simo@gmail.com', '123456');
+(90, 'Wita', 'karwila28', 'Witakarwila28', 'Witakarwila28@yahoo.co.id', '18672348902'),
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
